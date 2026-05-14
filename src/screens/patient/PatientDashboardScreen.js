@@ -61,8 +61,7 @@ export default function PatientDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#E3F2FD' }]}>
               <Ionicons name="calendar" size={24} color="#0066CC" />
             </View>
-            <Text style={styles.actionText}>Book{'
-'}Appointment</Text>
+            <Text style={styles.actionText}>Book{'\n'}Appointment</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -71,8 +70,7 @@ export default function PatientDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#E8F5E9' }]}>
               <Ionicons name="document-text" size={24} color="#4CAF50" />
             </View>
-            <Text style={styles.actionText}>Medical{'
-'}Records</Text>
+            <Text style={styles.actionText}>Medical{'\n'}Records</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -81,8 +79,7 @@ export default function PatientDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#FFF3E0' }]}>
               <Ionicons name="heart" size={24} color="#FF9800" />
             </View>
-            <Text style={styles.actionText}>Health{'
-'}Info</Text>
+            <Text style={styles.actionText}>Health{'\n'}Info</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -91,8 +88,7 @@ export default function PatientDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#F3E5F5' }]}>
               <Ionicons name="person" size={24} color="#9C27B0" />
             </View>
-            <Text style={styles.actionText}>My{'
-'}Profile</Text>
+            <Text style={styles.actionText}>My{'\n'}Profile</Text>
           </TouchableOpacity>
         </View>
 

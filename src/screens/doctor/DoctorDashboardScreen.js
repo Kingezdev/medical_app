@@ -77,8 +77,7 @@ export default function DoctorDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#F0F7FF' }]}>
               <Ionicons name="calendar" size={24} color="#0066CC" />
             </View>
-            <Text style={styles.actionText}>View{'
-'}Appointments</Text>
+            <Text style={styles.actionText}>View{'\n'}Appointments</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -87,8 +86,7 @@ export default function DoctorDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#E8F5E9' }]}>
               <Ionicons name="people" size={24} color="#4CAF50" />
             </View>
-            <Text style={styles.actionText}>My{'
-'}Patients</Text>
+            <Text style={styles.actionText}>My{'\n'}Patients</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
@@ -97,8 +95,7 @@ export default function DoctorDashboardScreen() {
             <View style={[styles.actionIcon, { backgroundColor: '#FFF3E0' }]}>
               <Ionicons name="heart" size={24} color="#FF9800" />
             </View>
-            <Text style={styles.actionText}>Health{'
-'}Info</Text>
+            <Text style={styles.actionText}>Health{'\n'}Info</Text>
           </TouchableOpacity>
         </View>
 
